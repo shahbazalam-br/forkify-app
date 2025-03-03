@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "license": "ISC",
+  "author": "Shah Baz",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-scope-hoist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.40.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
